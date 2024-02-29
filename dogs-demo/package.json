@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "client": "bun run src/client.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.8.0",
+    "@elysiajs/static": "^0.8.1",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0"
+  }
+}
